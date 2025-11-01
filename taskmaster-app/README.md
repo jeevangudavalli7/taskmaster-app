@@ -4,7 +4,7 @@ A simple and beautiful task manager built with HTML, CSS, and JavaScript.
 
 ## 🌐 Live Demo
 
-[View Live Website](https://YOUR_USERNAME.github.io/taskmaster-app)
+[View Live Website](https://github.com/jeevangudavalli7/taskmaster-app)
 
 ## ✨ Features
 
@@ -22,3 +22,4 @@ A simple and beautiful task manager built with HTML, CSS, and JavaScript.
 - Local Storage API
 
 ## 📁 Project Structure
+
