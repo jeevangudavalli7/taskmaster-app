@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster - Personal Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">TaskMaster</div>
+            <ul class="nav-links">
+                <li><a href="#personal" class="nav-link active">Personal Tasks</a></li>
+                <li><a href="#team" class="nav-link">Team Projects</a></li>
+                <li><a href="#profile" class="nav-link">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="personal" class="task-section active-section">
+            <h2>Personal Tasks</h2>
+            <div class="task-form">
+                <input type="text" id="taskInput" placeholder="What needs to be done?">
+                <button id="addTaskBtn" class="btn-primary">Add Task</button>
+            </div>
+            <div class="task-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="pending">Pending</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+            <div class="task-list" id="taskList">
+                <!-- Tasks will be dynamically added here -->
+            </div>
+        </section>
+
+        <section id="team" class="task-section">
+            <h2>Team Projects</h2>
+            <p>Team features will be added in React phase</p>
+        </section>
+
+        <section id="profile" class="task-section">
+            <h2>User Profile</h2>
+            <p>Profile features will be added in React phase</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
